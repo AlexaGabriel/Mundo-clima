@@ -4,7 +4,10 @@
     font-family: "ubuntu", sans-serif;
 }
 body{
-    background: linear-gradient(180deg, #E82C31 0%, #F2822E 100%);
+    background-image: url('/img/pexels-markus-spiske-110874.jpg');
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +17,8 @@ body{
     display: none;
 }
 main{
-    background-color: #07B396 ;
+    background-color: rgba(0, 255, 234, 0.274);
+    backdrop-filter: blur(8px);
     box-shadow: black(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 2rem;
     color: #fdfdfd;
